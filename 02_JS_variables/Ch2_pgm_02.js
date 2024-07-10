@@ -4,9 +4,9 @@ var score;
 score = 100;
 console.log(score);
 
-var score1;
-score1 = 400;
-console.log(score1);
+var scoreI;
+scoreI = 400;
+console.log(scoreI);
 
 /* Further Adventures
  *
