@@ -10,7 +10,19 @@ book = {
 
 console.log(book.title);
 console.log(book.author);
+console.log(book.published);
 
+
+
+book1 = {
+	title     : "Pride and Prejudice" ,
+	  author    : " Jane Austen",
+	  published : 1813
+  };
+
+  console.log(book1.title);
+  console.log(book1.author);
+  console.log(book1.published);
 
 
 /* Further Adventures
