@@ -1,8 +1,10 @@
 // Declaring a variable
 
 var score;
-var mark;
-var ball;
+x = 400;
+y =300;
+console.log(x);
+console.log(y);
 
 /* Further Adventures
  *
