@@ -8,8 +8,14 @@ console.log(message);
 message = 'Congratulations! Your tweet has won a prize...';
 console.log(message);
 
+message = 'This is a message';
+console.log(message);
 
+message = "Hello" + "World!";
+console.log(message);
 
+message = 'Congratulations!' + 'Your tweet' + 'has won a prize...';
+console.log(message);
 /* Further Adventures
  *
  * 1) Assign message a third value. Display it on the console.
