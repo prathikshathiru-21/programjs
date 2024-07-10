@@ -8,8 +8,16 @@ bookName = "The Adventures of Tom Sawyer";
 book = {
     title : bookName
 };
+console.log(book);
 
 
+bookName = "Gone Girl";
+
+book = {
+    title: bookName
+};
+
+console.log(book);
 
 /* Further Adventures
  *
