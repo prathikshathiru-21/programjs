@@ -2,7 +2,7 @@
 
 // Using console.log to display information
 
-console.log("Hi!");
+console.log("Welcome to Our Website ");
 
 
 /* Further Adventures
