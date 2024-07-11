@@ -11,7 +11,11 @@ response = getMessage();
 
 console.log(response);
 
+var getMyMessage = function () {
+    return "This is my custom message!";
+};
 
+console.log(getMyMessage());
 
 /* Further Adventures
  *
