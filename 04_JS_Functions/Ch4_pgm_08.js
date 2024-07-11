@@ -6,12 +6,24 @@ displayMenu = function () {
 	console.log("Please choose an option:");
 	console.log("(1) Print log");
 	console.log("(2) Upload file");
+	console.log("(3) Delete file"); 
+	console.log("(4) Download file");
 	console.log("(9) Quit");
 };
 
 displayMenu();
 
+var displayMyMenu;
 
+displayMyMenu = function () {
+	console.log("My Custom Menu:");
+	console.log("(1) Start Game");
+	console.log("(2) Load Game");
+	console.log("(3) Save Game");
+	console.log("(4) Exit");
+}
+
+displayMyMenu();
 
 /* Further Adventures
  *
