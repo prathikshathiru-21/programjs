@@ -10,7 +10,35 @@ showSum = function (number1, number2) {
 showSum(30, 23);
 showSum(2.8, -5);
 
+var showProduct = function (number1, number2) {
+	var result = number1 * number2;
+	console.log("The product is " + result);
+};
 
+
+showProduct(56, 74);
+showProduct(3, 5);
+showProduct(-2, 10);
+
+var showDifference = function (number1, number2) {
+	var result = number1 - number2;
+	console.log("The difference is " + result);
+};
+
+
+showDifference(100, 50);
+showDifference(5, 10);
+showDifference(-10, -5);
+
+var showQuotient = function (number1, number2) {
+	var result = number1 / number2;
+	console.log("The quotient is " + result);
+};
+
+
+showQuotient(20, 5);
+showQuotient(10, 3);
+showQuotient(-12, 4);
 
 /* Further Adventures
  *
