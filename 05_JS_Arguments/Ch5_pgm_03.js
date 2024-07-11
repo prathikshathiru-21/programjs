@@ -3,11 +3,12 @@
 var showMessage;
 
 showMessage = function (message) {
-	console.log("The message is: " + message);
+	console.log("The message is: " + message + "Thanks for reading");
 };
 
 showMessage("It's full of stars!");
-
+showMessage("This is another message.");
+showMessage("Another message to display.");
 
 
 /* Further Adventures
