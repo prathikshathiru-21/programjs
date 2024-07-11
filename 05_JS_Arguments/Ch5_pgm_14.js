@@ -41,7 +41,33 @@ var player2 = {
 showPlayerInfo(player1.name, player1.place, player1.health);
 showPlayerInfo(player2.name, player2.place, player2.health);
 
+var showLine = function (length) {
+    var line = "-".repeat(length);
+    console.log(line);
+};
 
+var showBoxedName = function (playerName) {
+    var nameLength = playerName.length + 4; 
+    showLine(nameLength);
+    console.log("- " + playerName + " -");
+    showLine(nameLength);
+};
+
+var showBoxedNameWithAsterisks = function (playerName) {
+    var nameLength = playerName.length + 4; 
+    var line = "*".repeat(nameLength);
+    console.log(line);
+    console.log("* " + playerName + " *");
+    console.log(line);
+};
+
+console.log("Displaying boxed names using dashes:");
+showBoxedName(player1.name);
+showBoxedName(player2.name);
+
+console.log("\nDisplaying boxed names using asterisks:");
+showBoxedNameWithAsterisks(player1.name);
+showBoxedNameWithAsterisks(player2.name);
 
 
 /* Further Adventures
