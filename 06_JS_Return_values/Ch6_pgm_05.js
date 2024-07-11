@@ -8,6 +8,18 @@ totalCost = function (callOutCharge, costPerHour, numberOfHours) {
 
 console.log("$" + totalCost(30, 40, 3));
 
+console.log("$" + totalCost(30, 40, 12));
+
+var totalCostWithDiscount;
+
+totalCostWithDiscount = function (callOutCharge, costPerHour, numberOfHours, discount){
+var totalBeforeDiscount = callOutCharge + costPerHour * numberOfHours;
+var discountedTotal = totalBeforeDiscount - discount;
+return discountedTotal;
+};
+
+console.log("$" + totalCostWithDiscount(30, 40, 3, 20));
+console.log("$" + totalCostWithDiscount(30, 40, 12, 20));
 
 
 /* Further Adventures
