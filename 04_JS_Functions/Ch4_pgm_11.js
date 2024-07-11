@@ -41,6 +41,45 @@ showMovieInfo();
 movie = movie3;
 showMovieInfo();
 
+var question1 = {
+    question: "What is the capital of France?",
+    options: ["Paris", "London", "Berlin", "Madrid"],
+    correctAnswer: "Paris"
+};
+
+var question2 = {
+    question: "What is 2 + 2?",
+    options: ["3", "4", "5", "6"],
+    correctAnswer: "4"
+};
+
+var question3 = {
+    question: "What is the largest planet in our Solar System?",
+    options: ["Earth", "Mars", "Jupiter", "Saturn"],
+    correctAnswer: "Jupiter"
+};
+
+var showQuestion;
+
+showQuestion = function () {
+    console.log(question.question);
+    console.log("------------------------------");
+    for (var i = 0; i < question.options.length; i++) {
+        console.log((i + 1) + ": " + question.options[i]);
+    }
+    console.log("------------------------------");
+};
+
+var question;
+
+question = question1;
+showQuestion();
+
+question = question2;
+showQuestion();
+
+question = question3;
+showQuestion();
 
 
 /* Further Adventures
