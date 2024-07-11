@@ -20,6 +20,13 @@ showMovieInfo = function () {
 
 movie = movie1;
 
+var movie2={
+  title: "Spectre",
+  actors: "Daniel Craig, Christoph Waltz",
+  directors: "Sam Mendes"
+}
+movie = movie2;
+
 showMovieInfo();
 
 
