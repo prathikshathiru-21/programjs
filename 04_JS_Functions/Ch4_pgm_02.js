@@ -3,6 +3,7 @@
 var movie1;
 var movie2;
 var movie3;
+var movie4;
 
 movie1 = {
   title: "Inside Out",
@@ -22,24 +23,62 @@ movie3 = {
   directors: "J.J.Abrams"
 };
 
-console.log("Movie information for " + movie1.title);
-console.log("------------------------------");
-console.log("Actors: " + movie1.actors);
-console.log("Directors: " + movie1.directors);
-console.log("------------------------------");
+movie4 = {
+  title:  "Inception",
+  actors:"Leonardo DiCaprio, Joseph Gordon-Levitt" ,
+  directors: "Christopher Nolan"
+};
 
-console.log("Movie information for " + movie2.title);
-console.log("------------------------------");
-console.log("Actors: " + movie2.actors);
-console.log("Directors: " + movie2.directors);
-console.log("------------------------------");
+function displayMovieInfo(movie){
+  console.log("Movie information for " + movie.title);
+  console.log("------------------------------");
+  console.log("Actors: " + movie.actors);
+  console.log("Directors: " + movie.directors);
+  console.log("\n");
+}
 
-console.log("Movie information for " + movie3.title);
-console.log("------------------------------");
-console.log("Actors: " + movie3.actors);
-console.log("Directors: " + movie3.directors);
-console.log("------------------------------");
+displayMovieInfo(movie1);
+displayMovieInfo(movie2);
+displayMovieInfo(movie3);
+displayMovieInfo(movie4);
 
+
+var event1;
+var event2;
+var event3;
+
+
+event1 = {
+  title: "Meeting with Bob",
+  date: "2024-07-15",
+  time: "10:00 AM",
+  location: "Conference Room A"
+};
+
+event2 = {
+  title: "Doctor's Appointment",
+  date: "2024-07-16",
+  time: "2:00 PM",
+  location: "Downtown Clinic"
+};
+
+event3 = {
+  title: "Team Lunch",
+  date: "2024-07-17",
+  time: "12:30 PM",
+  location: "Cafe Bistro"
+};
+
+function displayEventInfo(event) {
+  console.log("Event: " + event.title);
+  console.log("Date: " + event.date);
+  console.log("Time: " + event.time);
+  console.log("Location: " + event.location);
+  console.log("------------------------------\n"); 
+}
+displayEventInfo(event1);
+displayEventInfo(event2);
+displayEventInfo(event3);
 
 
 /* Further Adventures
