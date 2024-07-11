@@ -2,10 +2,15 @@
 
 var findTotal;
 var displayMenu;
+var number1 = 250;
+var number2 = 395;
 
 findTotal = function () {
 	result = number1 + number2;
 };
+
+findTotal();
+console.log("Total:" + result);
 
 displayMenu = function () {
 	console.log("Please choose an option:");
@@ -14,6 +19,7 @@ displayMenu = function () {
 	console.log("(9) Quit");
 };
 
+displayMenu();
 
 
 /* Further Adventures
