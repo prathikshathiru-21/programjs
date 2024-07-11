@@ -8,9 +8,20 @@ add = function (number1, number2) {
 	return total;
 };
 
-var sum = add(50, 23);
+var sum = add(210, 300);
 
 console.log(sum);
+console.log("The sume of 50 and 23 is:" + add(50, 23));
+
+var nestedSum =add(30, add(40, add(70, 80)));
+console.log(nestedSum);
+
+var addThreeNumbers = function (num1, num2, num3){
+	var sum = num1 + num2 + num3;
+	return sum;
+}
+
+console.log(addThreeNumbers(21,50,76));
 
 
 
