@@ -10,17 +10,24 @@ getMessage = function () {
 };
 
 getHelloTo = function (name) {
-    return "Hello to " + name;
+    console.log( "Hello to " + name);
 };
+
+getHelloTo("Dax");
 
 sum = function (number1, number2) {
-    return number1 + number2;
+    console.log( number1 + number2);
 };
+
+sum(30, 21);
+sum(44, 66);
 
 totalCost = function (callOutCharge, costPerHour, numberOfHours) {
-    return callOutCharge + costPerHour * numberOfHours;
+    console.log(callOutCharge + costPerHour * numberOfHours);
 };
 
+totalCost(30, 50, 4);
+totalCost(70, 25, 8);
 
 
 /* Further Adventures
