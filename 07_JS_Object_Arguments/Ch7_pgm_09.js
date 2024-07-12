@@ -6,7 +6,15 @@ var charIndex = message.indexOf("M");
 
 console.log(message.substr(charIndex, 3));
 
+var goIndex = message.indexOf("go");
+console.log("The word 'go' starts at index: " + goIndex);
 
+var chooseIndex = message.indexOf("choose");
+console.log("The word 'choose': " + message.substr(chooseIndex, 6));
+
+
+var lastOoIndex = message.lastIndexOf("oo");
+console.log("The last occurrence of 'oo' is at index: " + lastOoIndex);
 
 /* Further Adventures
  *
