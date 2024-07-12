@@ -11,7 +11,40 @@ var line = function (lineLength) {
   console.log(line(40));
   console.log(line(50));
   
-  
+  for (var i = -20; i <= 60; i += 10) {
+    console.log(line(i));
+}
+
+var spaces =function (length){
+  var spaceLine = "        ";
+  length = Math.max(0, length);
+  length = Math.min(40, length);
+  return spaceLine.substr(0, length);
+}
+
+console.log(spaces(10));
+console.log(spaces(30));
+console.log(spaces(5));
+
+var emptyBox = function (width) {
+  width = Math.max(2, width);
+  width = Math.min(40, width);
+
+  var topBottom = line(width);
+  var middle = "=" + spaces(width - 2) + "=";
+
+  console.log(topBottom);
+
+  for (var i = 0; i < 3; i++) {
+    console.log(middle);
+}
+console.log(topBottom);
+};
+
+emptyBox(15);
+emptyBox(6);
+emptyBox(40);
+emptyBox(50);
   
   /* Further Adventures
    *
