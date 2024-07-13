@@ -22,8 +22,33 @@ var displayQuestion = function (questionAndAnswer) {
     ],
     correctAnswer : "Paris"
   };
+
+  var question2 = {
+    question: "What is the tallest mountain in the world?",
+    answers: [
+        "K2",
+        "Mount Everest",
+        "Kangchenjunga",
+        "Lhotse"
+    ],
+    correctAnswer: "Mount Everest"
+};
+
+var question3 = {
+    question: "Which planet is known as the Red Planet?",
+    answers: [
+        "Venus",
+        "Earth",
+        "Mars",
+        "Jupiter"
+    ],
+    correctAnswer: "Mars"
+};
   
-  displayQuestion(question1);
+var questions = [question1, question2, question3];
+
+questions.forEach(displayQuestion);
+
   
   
   
