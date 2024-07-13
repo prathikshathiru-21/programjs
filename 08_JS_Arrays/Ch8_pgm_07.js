@@ -15,7 +15,20 @@ showInfo = function (itemToShow) {
 
 items.forEach(showInfo);
 
+items.push("The Eiffel Tower");
+items.push("Machu Picchu");
+items[5] = "Christ the Redeemer";
 
+items.forEach(showInfo);
+var totalLetters = function (array) {
+  var total = 0;
+  array.forEach(function (item) {
+      total += item.length;
+  });
+  return total;
+};
+
+console.log("Total number of letters: " + totalLetters(items));
 
 /* Further Adventures
  *
