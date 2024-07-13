@@ -15,7 +15,37 @@ var numOfEach = [ 2, 1, 5, 2 ];
 
 console.log("The total cost is $" + getTotalBill(costs, numOfEach));
 
+costs.push(3.75);
+numOfEach.push(3);
 
+console.log("The total cost is $" + getTotalBill(costs, numOfEach));
+
+var getTotalBillRevised = function (itemCosts, itemCounts) {
+    var total = 0;
+
+    itemCounts.forEach(function (count, i) {
+        total += count * itemCosts[i];
+    });
+
+    return total;
+};
+console.log("The total cost with revised function is $" + getTotalBillRevised(costs, numOfEach));
+
+var items = [
+    { cost: 1.99, numberBought: 2 },
+    { cost: 4.95, numberBought: 1 },
+   
+];
+var getTotalBillFromItems = function (items) {
+    var total = 0;
+
+    items.forEach(function (item) {
+        total += item.cost * item.numberBought;
+    });
+
+    return total;
+};
+console.log("The total cost from items array is $" + getTotalBillFromItems(items));
 
 /* Further Adventures
  *
