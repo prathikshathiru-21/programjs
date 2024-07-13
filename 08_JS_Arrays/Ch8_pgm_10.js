@@ -6,6 +6,20 @@
     console.log("Array: " + wholeArray);
   });
   
+  var rectangles = [
+    { length: 4, width: 5 },
+    { length: 6, width: 7 },
+    { length: 8, width: 3 }
+];
+
+var assignArea = function (rectangle) {
+  rectangle.area = rectangle.length * rectangle.width;
+};
+var showInfo = function (rectangle) {
+  console.log("Length: " + rectangle.length + ", Width: " + rectangle.width + ", Area: " + rectangle.area);
+};
+rectangles.forEach(assignArea);
+rectangles.forEach(showInfo);
   
   
   /* Further Adventures
