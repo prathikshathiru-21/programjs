@@ -175,10 +175,15 @@ var spacer = {
   player1.place = library;
   player1.addItem("a rusty key");
   player1.addItem("The Sword of Doom");
+player1.showInfo("=");
   
-  player1.showInfo("=");
   
-  
+var player2 = new Player("Aragon", 75);
+player2.place = library;
+player2.addItem("a shining shield");
+player2.addItem("The Helmet of Truth");
+
+player2.showInfo("-");
   
   /* Further Adventures
    *
