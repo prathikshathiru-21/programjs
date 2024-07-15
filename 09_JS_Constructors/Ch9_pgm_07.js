@@ -26,8 +26,39 @@ question1.addOption("Bordeaux");
 question1.addOption("F");
 question1.addOption("Paris");
 question1.addOption("Brussels");
+question1.addOption("Lyon");
 
 question1.showQuestion();
+
+var question2 = new QuizQuestion(
+     "What is the largest planet in our solar system?",
+    "Jupiter"
+);
+
+question2.addOption("Earth");
+question2.addOption("Mars");
+question2.addOption("Jupiter");
+question2.addOption("Saturn");
+question2.addOption("Venus");
+
+var question3 = new QuizQuestion(
+    "What element does 'O' represent on the periodic table?",
+    "Oxygen"
+);
+
+question3.addOption("Oxygen");
+question3.addOption("osmium");
+question3.addOption("Oganesson");
+question3.addOption("Gold");
+question3.addOption("Oxygenium");
+
+console.log("\nQuestion 2:");
+question2.showQuestion();
+console.log("Answer:" + question2.answer);
+
+console.log("\nQuestion 3:");
+question3.showQuestion();
+console.log("Answer:" + question3.answer);
 
 
 
