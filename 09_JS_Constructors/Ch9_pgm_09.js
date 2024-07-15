@@ -184,6 +184,13 @@ player2.addItem("a shining shield");
 player2.addItem("The Helmet of Truth");
 
 player2.showInfo("-");
+
+var player3 = new Player("Luna", 65);
+player3.place = library;
+player3.addItem("a magical wand");
+player3.addItem("The Cloak of Invisibility");
+
+player3.showInfo("*");
   
   /* Further Adventures
    *
