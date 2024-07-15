@@ -16,6 +16,11 @@ var planet = new Planet( "Jupiter", 5, "Gas Giant" );
 
 planet.showPlanet();
 
+var planet1 = new Planet("Mars", 4, "Terrestrial");
+planet1.showPlanet();
+
+
+
 
 
 /* Further Adventures
